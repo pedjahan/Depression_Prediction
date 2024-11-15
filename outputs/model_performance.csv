@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1 Score,Best Params
+LogisticRegression,0.5856829826313924,0.3717034395661541,0.5320891157547721,0.4376653764569529,"{'solver': 'liblinear', 'penalty': 'l1', 'C': 0.001}"
+RandomForest,0.5721812264363741,0.3655021530768162,0.5596320518955707,0.4421990210701006,"{'n_estimators': 50, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2', 'max_depth': 10, 'bootstrap': False}"
+XGBoost,0.6762639770566816,0.36615320566194837,0.09352900515765407,0.14899834822752106,"{'subsample': 0.5, 'reg_lambda': 1, 'reg_alpha': 0, 'n_estimators': 150, 'max_depth': 10, 'learning_rate': 0.2, 'gamma': 0, 'colsample_bytree': 1.0}"
